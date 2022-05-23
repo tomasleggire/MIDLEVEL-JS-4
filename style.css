@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    color:  #333;
+    box-sizing: border-box;
+}
+
+.formulario-de-notas {
+    text-align: center;
+    margin: 50px 15%;
+    background-color: rgb(62, 62, 107);
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+h2 {
+    margin: 0;
+    flex-grow: 1;
+    color: #fff;
+}
+
+input {
+    width: 30px;
+}
+
+#snd-nota {
+    width: auto;
+    margin-left: 6px;
+    border: none;
+    color: rgb(99, 99, 238);
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+.modal-background {
+    position: absolute;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,0.7);
+    display: none;
+    opacity: 0;
+}
+
+.modal {
+    background-color: #fff;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.resultado {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.green {
+    color: rgb(59, 182, 59);
+}
+.red {
+    color: rgb(226, 67, 67);
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        display: flex;
+    }
+    100% {
+        opacity: 1;
+        display: flex;
+    }
+}
